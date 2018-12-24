@@ -1,4 +1,7 @@
 package competitions.obstacle;
 
-public class Obstacle {
+import competitions.Competitor;
+
+public abstract class Obstacle {
+    public abstract void doIt(Competitor competitor);
 }

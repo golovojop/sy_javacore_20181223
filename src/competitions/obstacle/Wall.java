@@ -1,4 +1,16 @@
 package competitions.obstacle;
 
-public class Wall {
+import competitions.Competitor;
+
+public class Wall extends Obstacle {
+    int height;
+
+    public Wall(int height) {
+        this.height = height;
+    }
+
+    @Override
+    public void doIt(Competitor competitor) {
+        competitor.jump(height);
+    }
 }
