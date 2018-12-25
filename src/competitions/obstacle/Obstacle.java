@@ -1,6 +1,6 @@
 package competitions.obstacle;
 
-import competitions.Competitor;
+import competitions.competitor.Competitor;
 
 public abstract class Obstacle {
     public abstract void doIt(Competitor competitor);
