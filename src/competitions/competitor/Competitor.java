@@ -1,4 +1,4 @@
-package competitions;
+package competitions.competitor;
 
 public interface Competitor {
     void run(int dist);

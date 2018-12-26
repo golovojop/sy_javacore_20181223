@@ -1,5 +1,7 @@
 package competitions;
 
+import competitions.competitor.Competitor;
+
 public class Human implements Competitor {
     String name;
 

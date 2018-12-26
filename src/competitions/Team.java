@@ -1,5 +1,6 @@
 package competitions;
 
+import competitions.competitor.Competitor;
 import competitions.obstacle.Obstacle;
 
 public class Team {

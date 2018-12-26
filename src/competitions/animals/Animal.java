@@ -1,6 +1,6 @@
 package competitions.animals;
 
-import competitions.Competitor;
+import competitions.competitor.Competitor;
 
 public class Animal implements Competitor {
     String type;

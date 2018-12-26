@@ -1,6 +1,6 @@
 package competitions.obstacle;
 
-import competitions.Competitor;
+import competitions.competitor.Competitor;
 
 public class Cross extends Obstacle {
     int length;
